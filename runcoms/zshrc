@@ -12,3 +12,11 @@ fi
 
 # Customize to your needs...
 source ~/.bash_profile
+
+export SCRCPY_SERVER_PATH=/Applications/极空间.app/Contents/Resources/app.asar.unpacked/bin/platform-tools/scrcpy-server
+export PATH=$PATH:/Applications/极空间.app/Contents/Resources/app.asar.unpacked/bin/platform-tools
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/chendifan/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
